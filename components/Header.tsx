@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 export const Header = ({ children, className }: HeaderProps) => {
-  console.log(children)
   return (
     <div className={cn('header', className)}>
       <Link href="/" className="md:w-[150px]">
